@@ -2,6 +2,8 @@
 
 Sales and website behavior analysis built from the 6 CSV files in `data/`, using SQL Server for cleaning and data modeling and Power BI for visualization.
 
+![Business Overview dashboard](dashboard/images/Business%20Overview.png)
+
 ## Repository structure
 
 ```
@@ -42,7 +44,7 @@ Ecommerce-Sales-Analytics/
 - Refunds: **USD 85,338.69**. Revenue after refunds: **USD 1,853,171.06**.
 - Orders span 2012-03-19 to 2015-03-19; refunds run until 2015-04-01. The first month (2012-03) and the last month (2015-03) are incomplete.
 - `NULL`, `\N` and empty strings in UTM/referer fields are converted to SQL NULL. A missing UTM does not mean direct traffic.
-- The dataset's source and terms of use should be added before publishing the project.
+- Source: [Toy Store E-Commerce Database](https://mavenanalytics.io/data-playground/toy-store-e-commerce-database) from the Maven Analytics Data Playground. It covers Maven Fuzzy Factory, a fictional online retailer that sells teddy bears. Maven lists the dataset under a Public Domain license.
 
 ## How to run
 
